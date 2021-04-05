@@ -7,7 +7,7 @@
     print($tipo);
     if ($tipo == 'litle') {
         print("litle");
-    } 
+    }
     if ($tipo == "big") {
         print("big");
     }

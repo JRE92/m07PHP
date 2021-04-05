@@ -1,12 +1,16 @@
-<html><body>
+<html>
+
+<body>
     <?php
     header("refresh:5; url= main.php");
     print("retirar");
-    if(""){
+    if ("") {
         print("no se encuentra");
     }
-    if(""){
+    if ("") {
         print("retirado");
     }
     ?>
-</body></html>
+</body>
+
+</html>
