@@ -1,11 +1,18 @@
-<html><body>
+<html>
+
+<body>
     <?php
     header("refresh:5; url= main.php");
-    if(""){
-        print("no hay sitio");
+    $tipo = $_POST["tipo"];
+    print($tipo);
+    if ($tipo == 'litle') {
+        print("litle");
+    } 
+    if ($tipo == "big") {
+        print("big");
     }
-    if(""){
-        print("aparcado");
-    }
+
     ?>
-</body></html>
+</body>
+
+</html>
